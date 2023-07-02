@@ -1,0 +1,110 @@
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    #candidate {
+        border: black solid 4px;
+        border-radius: 10px;
+        width: 50%;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    
+    h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    
+    #cand_heading2 {
+        text-align: center;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    
+    label {
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #555;
+    }
+    
+    #lab1 {
+        padding-left: 5rem;
+    }
+    
+    #lab2 {
+        padding-left: 5rem;
+    }
+    
+    input[type="text"] {
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        transition: border-color 0.3s ease;
+        width: 24rem;
+    }
+    
+    input[type="text"]:focus {
+        border-color: #888;
+    }
+    
+    button[type="submit"] {
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    #cand {
+        width: 23rem;
+        margin-left: 10rem;
+    }
+    
+    button[type="submit"]:hover {
+        background-color: #555;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    li {
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 4px;
+        transition: transform 0.3s ease;
+    }
+    
+    li:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    p {
+        margin: 5px 0;
+        color: #555;
+    }
+    
+    .no-results {
+        text-align: center;
+        color: #888;
+    }
+    
+    .footer {
+        margin-top: 4rem;
+    }
